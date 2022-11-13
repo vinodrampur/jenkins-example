@@ -17,8 +17,6 @@ pipeline {
                     sh 'mvn test'
             }
         }
-
-
         stage ('Deployment Stage') {
             steps {
             
